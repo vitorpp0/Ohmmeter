@@ -24,4 +24,6 @@ Surprise! Nothing happens, thats because you need to click on the record button.
 
 <img src="./readmeImages/recordMeasurements.png" alt="record measurements">
 
-That wasn't so fast right?
+That wasn't so fast right? Now, one for the road: this VI was modeled to work with the model model circuit bellow.
+
+<img src="./readmeImages/CircuitDetails.png" alt="model circuit">
