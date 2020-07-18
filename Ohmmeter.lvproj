@@ -12,7 +12,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Utils" Type="Folder">
 			<Item Name="CircuitParameters.ctl" Type="VI" URL="../CircuitParameters.ctl"/>
-			<Item Name="VoltageToResistance.vi" Type="VI" URL="../../../../LabVIEW/VoltageToResistance.vi"/>
+			<Item Name="VoltageToResistance.vi" Type="VI" URL="../VoltageToResistance.vi"/>
 		</Item>
 		<Item Name="Ohmmeter.vi" Type="VI" URL="../Ohmmeter.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
