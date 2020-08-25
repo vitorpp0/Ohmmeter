@@ -2,28 +2,27 @@
 
 An analog serial Arduino based ohmmeter developed in LabVIEW 2020
 
-# Getting Started
+## Getting Started
 
-First of all you must have LabVIEW installed in your machine, you can download it's commuty version 
-in the <a href="https://www.ni.com/pt-br/shop/labview/select-edition/labview-community-edition.html">NI LabVIEW Community Edition</a> webpage. 
+### Install LabVIEW
 
-Once you have it chose a folder and run: git clone this/repository/url with your gitbash or other terminal as
-ilustrated bellow.
+First of all you must have LabVIEW installed in your machine, you can download its community version in the NI LabVIEW Community Edition [webpage](https://www.ni.com/pt-br/shop/labview/select-edition/labview-community-edition.html) for free. :star_struck:
 
-<img src="./readmeImages/gitclone.png" alt="git clone command example">
+### Prepare your Arduino
 
-After the cloning process, open the new folder and open the Ohmmeter.lvproj file. 
+Well, as expected you must install a little NI program in your arduino to build the bridge between Arduinos C++ and the LabVIEW languages. 	:disappointed_relieved:
+It's a quick process and well ilustrated in this nice [video](https://www.youtube.com/watch?v=RGRhIQneO6w). :sunglasses:
 
-<img src="./readmeImages/openLabViewProject.png" alt="opening the project">
 
-Then, select the Ohmmeter VI, fill the parameters fields and run the VI. 
+### Git Clone the Project
 
-<img src="./readmeImages/openVI.png" alt="open ohmmeter VI">
+Ok! Now that we already did all of that it's time to clone the Ohmmeter project.  Choose a directory, open it in your gitbash and run the command:
 
-Surprise! Nothing happens, thats because you need to click on the record button.
+```
+git clone https://github.com/vitorpp0/Ohmmeter.git
+```
 
-<img src="./readmeImages/recordMeasurements.png" alt="record measurements">
+After the cloning process open the Ohmmeter.lvproj and then the Ohmmeter.VI as illustrated below. 
 
-That wasn't so fast right? Now, one for the road: this VI was modeled to work with the model model circuit bellow.
+![Image opening the project](./images/opensTheProject.png)
 
-<img src="./readmeImages/CircuitDetails.png" alt="model circuit">
