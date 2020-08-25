@@ -24,5 +24,5 @@ git clone https://github.com/vitorpp0/Ohmmeter.git
 
 After the cloning process open the Ohmmeter.lvproj and then the Ohmmeter.VI as illustrated below. 
 
-![](./Images/opensTheProject.png){width=60%}
+<img src="./Images/opensTheProject.png" width="300px" height="170px" />
 
